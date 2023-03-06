@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar img{
+    float: right;
+    width: 100px;
+    margin-top: -75px;
+}
+
+.navbar{
+    padding: 10px;
+    border-bottom: 2px solid #999;
+    
+}
+
+.navbar h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: lighter;
+    font-size: 3.7rem;
+    
+    text-align: center;
+    text-shadow: 2px 2px 0px #999;
+}
+
+.subbar{
+    border-bottom: 2px solid #999;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subbar img{
+    width:60px;
+    
+}
+
+.subbar .insta{
+    width: 22px;
+    display: flex;
+}
+
+.noticias{
+    display: flex;
+    justify-content: space-between;
+    background: #999;
+}
+
+.esquerda, .direita{
+    max-width: 49.9%;
+    min-width: 49.9%;
+    padding: 10px;
+    background: #fff;
+}
