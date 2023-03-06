@@ -63,10 +63,27 @@ body{
     background: #fff;
 }
 
+.esquerda h3, .direita h3{
+    color: #555555;
+}
+
 .noticia{
     padding: 10px;
 }
 
+.noticia h2{
+    padding: 5px;
+}
+
 .noticia img{
     width: 100%;
+}
+
+.noticia small{
+    font-size: 0.9rem;
+}
+
+.noticia p{
+    font-size: 1.7rem;
+    padding: 5px;
 }
