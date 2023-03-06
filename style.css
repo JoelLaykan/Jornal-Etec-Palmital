@@ -11,19 +11,19 @@ body{
      font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar img{
+.topbar img{
     float: right;
     width: 100px;
     margin-top: -75px;
 }
 
-.navbar{
+.topbar{
     padding: 10px;
     border-bottom: 2px solid #999;
     
 }
 
-.navbar h1{
+.topbar h1{
     font-family: 'Fjalla One', sans-serif;
     font-weight: lighter;
     font-size: 3.7rem;
@@ -40,9 +40,26 @@ body{
     justify-content: space-evenly;
 }
 
+.navbar{
+    border-bottom: 2px solid #999;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: black;
+    color: #fff;
+    transition: .4s;
+}
+
 .subbar img{
     width:60px;
-    
 }
 
 .subbar .insta{
@@ -59,12 +76,13 @@ body{
 .esquerda, .direita{
     max-width: 49.9%;
     min-width: 49.9%;
-    padding: 10px;
+    /*padding: 10px;*/
     background: #fff;
 }
 
 .esquerda h3, .direita h3{
     color: #555555;
+    padding: 10px;
 }
 
 .noticia{
