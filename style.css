@@ -19,7 +19,7 @@ body{
 
 .topbar{
     padding: 10px;
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #333;
     
 }
 
@@ -29,11 +29,11 @@ body{
     font-size: 3.7rem;
     
     text-align: center;
-    text-shadow: 2px 2px 0px #999;
+    text-shadow: 3px 2px 0px #999999d0;
 }
 
 .subbar{
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #333;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -41,7 +41,7 @@ body{
 }
 
 .navbar{
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #333;
     display: flex;
     justify-content: space-evenly;
 }
@@ -70,7 +70,7 @@ body{
 .noticias{
     display: flex;
     justify-content: space-between;
-    background: #999;
+    background: #333;
 }
 
 .esquerda, .direita{
@@ -95,6 +95,8 @@ body{
 
 .noticia img{
     width: 100%;
+    margin: auto;
+    display: block;
 }
 
 .noticia small{
@@ -102,6 +104,6 @@ body{
 }
 
 .noticia p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 5px;
 }
