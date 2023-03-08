@@ -58,6 +58,10 @@ body{
     transition: .4s;
 }
 
+#navesquerdo{
+    display: none;
+}
+
 .subbar img{
     width:60px;
 }
@@ -106,4 +110,25 @@ body{
 .noticia p{
     font-size: 1.5rem;
     padding: 5px;
+}
+
+@media (max-width: 720px) {
+    .topbar img{
+        display: none;
+    }
+    #navesquerdo{
+        display: flex;
+    }
+    #ano, #escola{
+        display: none;
+    }
+    .insta{
+        justify-content: center;
+    }
+    .direita{
+        display: none;
+    }
+    .esquerda{
+        min-width: 100%!important;
+    }
 }
