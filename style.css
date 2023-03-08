@@ -89,6 +89,10 @@ body{
     padding: 10px;
 }
 
+#inicio{
+    display: none;
+}
+
 .noticia{
     padding: 10px;
 }
@@ -121,6 +125,9 @@ body{
     }
     #ano, #escola{
         display: none;
+    }
+    #inicio{
+        display: flex;
     }
     .insta{
         justify-content: center;
