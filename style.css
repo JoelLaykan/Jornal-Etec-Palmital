@@ -14,11 +14,11 @@ body{
 .topbar img{
     float: right;
     width: 100px;
-    margin-top: -75px;
+    margin-top: -80px;
 }
 
 .topbar{
-    padding: 10px;
+    padding: 5px;
     border-bottom: 2px solid #333;
     
 }
@@ -52,7 +52,17 @@ body{
     text-decoration: none;
 }
 
-.navbar a:hover{
+#futebolbtn, #regiaoemundobtn, #iniciobtn{
+    background: #fff;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#futebolbtn:hover, #regiaoemundobtn:hover, #iniciobtn:hover{
     background: black;
     color: #fff;
     transition: .4s;
@@ -80,7 +90,8 @@ body{
 .esquerda, .direita{
     max-width: 49.9%;
     min-width: 49.9%;
-    /*padding: 10px;*/
+    padding: 10px;
+    padding-top: 0;
     background: #fff;
 }
 
@@ -89,12 +100,8 @@ body{
     padding: 10px;
 }
 
-#inicio{
-    display: none;
-}
-
 .noticia{
-    padding: 10px;
+    border-bottom: 2px solid #333;
 }
 
 .noticia h2{
@@ -126,7 +133,7 @@ body{
     #ano, #escola{
         display: none;
     }
-    #inicio{
+    #iniciobtn{
         display: flex;
     }
     .insta{
@@ -137,5 +144,8 @@ body{
     }
     .esquerda{
         min-width: 100%!important;
+    }
+    .noticia img{
+        width: 100%!important;
     }
 }
