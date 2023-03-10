@@ -24,20 +24,19 @@ body{
 }
 
 .topbar h1{
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: lighter;
-    font-size: 3.7rem;
-    
+    font-size: 3.5rem;  
     text-align: center;
-    text-shadow: 3px 2px 0px #999999d0;
+    text-shadow: 2px 2px 0px #999999d0;
 }
 
 .subbar{
     border-bottom: 2px solid #333;
+    font-family: serif;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
     justify-content: space-evenly;
+    color: #c30000;
 }
 
 .navbar{
@@ -66,6 +65,11 @@ body{
     background: black;
     color: #fff;
     transition: .4s;
+    outline: none;
+}
+
+#futebol, #futeboldireita, #regiaoemundodireita{
+    display: none;
 }
 
 #navesquerdo{
@@ -79,6 +83,7 @@ body{
 .subbar .insta{
     width: 22px;
     display: flex;
+    font-family: sans-serif;
 }
 
 .noticias{
