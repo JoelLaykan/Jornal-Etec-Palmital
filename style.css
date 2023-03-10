@@ -14,7 +14,13 @@ body{
 .topbar img{
     float: right;
     width: 100px;
-    margin-top: -80px;
+    margin-top: -76px;
+}
+
+.logo{
+    float: left!important;
+    margin-top: 0!important;
+    width: 70px!important;
 }
 
 .topbar{
@@ -26,7 +32,7 @@ body{
 .topbar h1{
     font-size: 3.5rem;  
     text-align: center;
-    text-shadow: 2px 2px 0px #999999d0;
+    /*text-shadow: 2px 2px 0px #999999d0;*/
 }
 
 .subbar{
