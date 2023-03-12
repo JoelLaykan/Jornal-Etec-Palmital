@@ -10,7 +10,7 @@ function mostrarPaginaRegiaoemundo() {
     document.getElementById("inicio").style.display = "block";
 }
 
-/*function mostrarInicio() {
+function mostrarInicio() {
     document.getElementById("regiaoemundo").style.display = "none";
     document.getElementById("futebol").style.display = "none";
     document.getElementById("inicio").style.display = "block";
@@ -26,9 +26,9 @@ function mostrarRegiaoemundo() {
     document.getElementById("regiaoemundo").style.display = "block";
     document.getElementById("futebol").style.display = "none";
     document.getElementById("inicio").style.display = "none";
-}*/
+}
 
-function mostrarInicio() {
+/*function mostrarInicio() {
     document.getElementById("regiaoemundodireita").style.display = "none";
     document.getElementById("futeboldireita").style.display = "none";
     document.getElementById("inicio").style.display = "block";
@@ -44,4 +44,4 @@ function mostrarRegiaoemundo() {
     document.getElementById("futeboldireita").style.display = "none";
     document.getElementById("inicio").style.display = "none";
     document.getElementById("regiaoemundodireita").style.display = "block";
-}
+}*/
