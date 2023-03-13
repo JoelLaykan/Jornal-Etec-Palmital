@@ -8,16 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topbar">
-        <img src="img/334605478_550340280411575_1352079898479071798_n.jpg" alt="" srcset="" id="jornallogo">
-        <h1>𝕵𝖔𝖗𝖓𝖆𝖑 𝕰𝖙𝖊𝖈</h1>
-        <img src="img/etec-log.png" id="eteclogo">
-    </div>
-    <div class="subbar">
-        <h3 id="ano">ANO MMXXIII</h3>
-        <h3 id="escola">Etec Professor Mário Antônio Verza</h3>
-        <div class="insta"><img src="img/download.png" alt="logo do instagram" srcset="" class="insta"><a href="https://instagram.com/jornal_etec_palmital" target="_blank" style="color: black; text-decoration: none;margin-top: 2px;">@jornal_etec_palmital</a></div>
-    </div>
+    <?php include 'top.php'; ?>
     <div class="content">
         <div class="noticias">
             <div class="esquerda">
@@ -28,14 +19,7 @@
                 </div>
 
 
-                <div id="inicio">                
-                    <h3>Etec</h3>
-                    <div class="noticia">
-                        <h2>8 de março, dias das mulheres</h2>
-                        <img src="img/diadasmulheres.jpg" alt="" style="width: 55%;">
-                        <p>O Jornal Etec parabeniza todas as mulheres por esse dia especial.</p>
-                    </div>
-                </div>
+                <?php include 'inicio.php'; ?>
 
                 <!--<div id="regiaoemundodireita">
                     <h3>Região e Mundo</h3>
@@ -58,24 +42,6 @@
                     <button id="futebolbtn" onclick="mostrarPaginaFutebol()">Futebol</button>
                     <button id="regiaoemundobtn" onclick="mostrarPaginaRegiaoemundo()">Região e Mundo</button>
                 </div>
-
-
-                <div id="regiaoemundo">
-                    <h3>Região e Mundo</h3>
-                    <div class="noticia">
-                        <h2>Taylor Swift adiciona Bolsonaro no WhatsApp para pedir Pix.</h2>
-                        <img src="img/taylorswift.webp" alt=""><small>Taylor Swift pede Pix para Bolsonaro.</small>
-                        <p>Em entrevista, o ex-presidente disse que ela deveria "fazer o L".</p>
-                    </div>
-                </div>
-
-                <div id="futebol">
-                    <h3>Futebol</h3>
-                    <div class="noticia">
-                        <h2>A E I O U</h2>
-                    </div>
-                </div>
-
 
             </div>
         </div>
