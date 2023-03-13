@@ -10,13 +10,6 @@
 <body>
     <?php include 'top.php'; ?>
     <div class="content">
-        <div class="noticias">
-            <div class="esquerda">
-                <div class="navbar" id="navesquerdo">
-                    <button id="iniciobtn" onclick="mostrarInicio()">Início</button>
-                    <button id="futebolbtn" onclick="mostrarFutebol()">Futebol</button>
-                    <button id="regiaoemundobtn" onclick="mostrarRegiaoemundo()">Região e Mundo</button>
-                </div>
 
 
                 <?php include 'inicio.php'; ?>

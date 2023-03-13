@@ -8,3 +8,12 @@
         <h3 id="escola">Etec Professor Mário Antônio Verza</h3>
         <div class="insta"><img src="img/download.png" alt="logo do instagram" srcset="" class="insta"><a href="https://instagram.com/jornal_etec_palmital" target="_blank" style="color: black; text-decoration: none;margin-top: 2px;">@jornal_etec_palmital</a></div>
     </div>
+    <div class="content">
+        <div class="noticias">
+            <div class="esquerda">
+                <div class="navbar" id="navesquerdo">
+                    <button id="iniciobtn" onclick="mostrarInicio()">Início</button>
+                    <button id="futebolbtn" onclick="mostrarFutebol()">Futebol</button>
+                    <button id="regiaoemundobtn" onclick="mostrarRegiaoemundo()">Região e Mundo</button>
+                </div>
+</div>
